@@ -85,26 +85,6 @@ export default function UserTypes() {
             </div>
           </div>
         </div>
-
-        {/* CTA Section */}
-        <div className="text-center mt-16">
-          <div className="bg-gray-50 rounded-2xl p-8 lg:p-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Ready to get started?
-            </h3>
-            <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-              Join thousands of people who are already using Now Runner to get help or earn money.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-[#5ABDA7] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#4AADA7] transition-colors duration-200 shadow-lg hover:shadow-xl">
-                Download the App
-              </button>
-              <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold text-lg hover:border-[#5ABDA7] hover:text-[#5ABDA7] transition-colors duration-200">
-                Become a Runner
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
