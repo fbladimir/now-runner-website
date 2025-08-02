@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import HowItWorks from '@/components/HowItWorks';
 import UserTypes from '@/components/UserTypes';
 import UseCases from '@/components/UseCases';
+import CitiesMap from '@/components/CitiesMap';
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <HowItWorks />
       <UserTypes />
       <UseCases />
+      <CitiesMap />
     </main>
   );
 }
