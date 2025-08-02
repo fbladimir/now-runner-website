@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import HowItWorks from '@/components/HowItWorks';
+import UserTypes from '@/components/UserTypes';
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Header />
       <Hero />
       <HowItWorks />
+      <UserTypes />
     </main>
   );
 }

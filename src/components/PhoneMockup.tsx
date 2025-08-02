@@ -30,7 +30,7 @@ export default function PhoneMockup() {
               {/* Input Field */}
               <div className="bg-gray-100 rounded-xl p-4">
                 <p className="text-gray-700 text-sm">
-                  My car won't start. think it's the battery
+                  My car will not start. I think it is the battery.
                 </p>
               </div>
 
