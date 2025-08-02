@@ -4,6 +4,7 @@ import HowItWorks from '@/components/HowItWorks';
 import UserTypes from '@/components/UserTypes';
 import UseCases from '@/components/UseCases';
 import CitiesMap from '@/components/CitiesMap';
+import FAQ from '@/components/FAQ';
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <UserTypes />
       <UseCases />
       <CitiesMap />
+      <FAQ />
     </main>
   );
 }
