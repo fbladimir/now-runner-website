@@ -5,6 +5,7 @@ import UserTypes from '@/components/UserTypes';
 import UseCases from '@/components/UseCases';
 import CitiesMap from '@/components/CitiesMap';
 import FAQ from '@/components/FAQ';
+import Footer from '@/components/Footer';
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <UseCases />
       <CitiesMap />
       <FAQ />
+      <Footer />
     </main>
   );
 }
