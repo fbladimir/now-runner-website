@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Now Runner – Get Help. Instantly.
 
-## Getting Started
+**Now Runner** is a modern, mobile-first platform that connects people who need help with real people nearby willing to assist — from battery jumps and room cleaning to errands and item deliveries.
 
-First, run the development server:
+Whether you're a **Requester** or a **Runner**, Now Runner makes help just a tap away.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Now Runner landing page showcases how the platform works, encourages downloads, and lets users sign up to become Runners.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔗 [Live Site (Coming Soon)](https://nowrunner.com)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 App (Coming Soon)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Flutter-based mobile app for iOS and Android will support two user types:
+- **Requesters:** Request help instantly using text or voice.
+- **Runners:** Pick up nearby tasks and earn on your own time.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🎯 Features (MVP)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### ✅ Website
+- Hero section with bold CTA
+- How it Works (Visual flow)
+- For Requesters / For Runners sections
+- Use Cases & Testimonials
+- Interactive "Now Serving: Miami" map
+- FAQs and helpful resources
+- Footer with links and contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ✅ App (planned)
+- Task creation with AI classification
+- Real-time runner matching
+- In-app messaging (coming later)
+- Task status tracking & rating system
+- Runner dashboard and earnings
+
+---
+
+## 🛠 Tech Stack
+
+### 🌐 Website
+- Framework: **Next.js 14** (App Router)
+- Styling: **CSS Modules** + custom utility classes
+- Fonts: **Inter** (Semibold, Regular)
+- Deployment: **Vercel** (recommended)
+- Version Control: **Git + GitHub**
+
+### 📱 App
+- Framework: **Flutter**
+- Backend: Firebase (Firestore + Auth)
+- Notifications: FCM
+- Payments: (TBD – Stripe / PayPal / Cash toggle)
+
+
