@@ -22,33 +22,33 @@ export default function PhoneMockup() {
             <div className="px-6 py-8 space-y-6">
               {/* Main Question */}
               <div className="text-center">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl font-semibold text-[#000000] mb-4">
                   What do you need help with?
                 </h2>
               </div>
 
               {/* Input Field */}
-              <div className="bg-gray-100 rounded-xl p-4">
-                <p className="text-gray-700 text-sm">
-                  My car will not start. I think it is the battery.
+              <div className="bg-[#F4F5F7] rounded-xl p-4">
+                <p className="text-[#333333] text-sm">
+                  My car won&apos;t start. I think it&apos;s the battery.
                 </p>
               </div>
 
               {/* Suggested Action Button */}
-              <button className="w-full bg-[#5ABDA7] text-white py-3 px-4 rounded-xl font-semibold text-center">
+              <button className="w-full bg-gradient-to-r from-[#5ABDA7] to-[#4AB497] text-white py-3 px-4 rounded-xl font-semibold text-center">
                 Battery Jumpstart
               </button>
 
               {/* Location */}
-              <div className="flex items-center space-x-2 bg-gray-50 rounded-xl p-4">
-                <svg className="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20">
+              <div className="flex items-center space-x-2 bg-[#F4F5F7] rounded-xl p-4">
+                <svg className="w-5 h-5 text-[#666666]" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                <span className="text-gray-700 font-medium">1130 Coral Way</span>
+                <span className="text-[#333333] font-medium">1130 Coral Way</span>
               </div>
 
               {/* Primary CTA Button */}
-              <button className="w-full bg-[#5ABDA7] text-white py-4 px-6 rounded-xl font-bold text-lg shadow-lg">
+              <button className="w-full bg-gradient-to-r from-[#5ABDA7] to-[#4AB497] text-white py-4 px-6 rounded-xl font-semibold text-lg shadow-lg">
                 Request Runner
               </button>
             </div>

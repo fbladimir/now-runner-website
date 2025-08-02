@@ -6,7 +6,7 @@ import UseCases from '@/components/UseCases';
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-[#F4F5F7]">
       <Header />
       <Hero />
       <HowItWorks />

@@ -23,18 +23,18 @@ const useCases = [
 
 export default function UseCases() {
   return (
-    <section className="bg-gray-50 py-16 sm:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="bg-white py-16 sm:py-24">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Left Column - Use Cases */}
           <div className="lg:col-span-2">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">
+            <h2 className="text-3xl sm:text-4xl font-semibold text-[#000000] mb-8">
               Use Cases
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {useCases.map((useCase, index) => (
-                <div key={index} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
+                <div key={index} className="bg-white rounded-2xl p-6 shadow-[0_4px_10px_rgba(0,0,0,0.03)] hover:shadow-lg transition-shadow duration-300 border border-[#E0E0E0]">
                   <div className="flex flex-col items-center text-center space-y-4">
                     {/* Icon */}
                     <div className={`w-16 h-16 bg-gradient-to-r ${useCase.color} rounded-full flex items-center justify-center shadow-lg`}>
@@ -43,10 +43,10 @@ export default function UseCases() {
                     
                     {/* Content */}
                     <div className="space-y-2">
-                      <h3 className="text-xl font-bold text-gray-900">
+                      <h3 className="text-xl font-semibold text-[#000000]">
                         {useCase.title}
                       </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">
+                      <p className="text-[#333333] text-sm leading-relaxed">
                         {useCase.description}
                       </p>
                     </div>
@@ -58,11 +58,11 @@ export default function UseCases() {
 
           {/* Right Column - Testimonial */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-lg border border-gray-100 h-full">
+            <div className="bg-white rounded-2xl p-8 lg:p-12 shadow-[0_4px_10px_rgba(0,0,0,0.03)] border border-[#E0E0E0] h-full">
               <div className="flex flex-col justify-center h-full">
                 {/* Quote Icon */}
                 <div className="flex justify-center mb-6">
-                  <div className="w-12 h-12 bg-[#5ABDA7] rounded-full flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gradient-to-r from-[#5ABDA7] to-[#4AB497] rounded-full flex items-center justify-center">
                     <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
                     </svg>
@@ -71,18 +71,18 @@ export default function UseCases() {
 
                 {/* Quote */}
                 <blockquote className="text-center space-y-6">
-                  <p className="text-2xl lg:text-3xl font-bold text-gray-900 leading-relaxed">
-                    "Now Runner makes getting tasks done so easy!"
+                  <p className="text-2xl lg:text-3xl font-semibold text-[#000000] leading-relaxed">
+                    &ldquo;Now Runner makes getting tasks done so easy!&rdquo;
                   </p>
                   
                   {/* Attribution */}
                   <div className="flex flex-col items-center space-y-2">
-                    <div className="w-12 h-12 bg-gradient-to-r from-[#5ABDA7] to-[#4AADA7] rounded-full flex items-center justify-center">
-                      <span className="text-white font-bold text-lg">S</span>
+                    <div className="w-12 h-12 bg-gradient-to-r from-[#5ABDA7] to-[#4AB497] rounded-full flex items-center justify-center">
+                      <span className="text-white font-semibold text-lg">S</span>
                     </div>
                     <div className="text-center">
-                      <p className="font-semibold text-gray-900">Sarah W.</p>
-                      <p className="text-sm text-gray-500">Verified Customer</p>
+                      <p className="font-semibold text-[#000000]">Sarah W.</p>
+                      <p className="text-sm text-[#666666]">Verified Customer</p>
                     </div>
                   </div>
                 </blockquote>
